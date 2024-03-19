@@ -2,10 +2,10 @@ const mysql2 = require("mysql2");
 const express = require("express");
 const app = express();
 const connector = mysql2.createConnection({
-  host: "sql6.freesqldatabase.com",
-  user: "sql6637533",
-  password: "mwceYYCU7N",
-  database: "sql6637533",
+  host: "toojoo-1967-toojoo-07.a.aivencloud.com",
+  user: "avnadmin",
+  password: "AVNS_l-E-H4HrPWaBiXrwoYe",
+  database: "usersData",
 });
 connector.connect((err) => {
   if (err) {
@@ -32,7 +32,7 @@ app.post("/dnopass", (req, response) => {
   );
 });
 app.listen(9000, () => {
-    console.log("port at 5060");
+    console.log("port at 9k");
   });
 // const query = `INSERT INTO usersData VALUES(
 //     '22ucs627',
